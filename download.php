@@ -36,6 +36,7 @@
        echo " FILE TIDAK DI TEMUKAN! ";
      }
    }elseif( $params ){
+     $basefile = $params;
      if( !empty( $basefile ) && file_exists( $basefile ) )
      {
        header("Pragma:public");
